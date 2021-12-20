@@ -1,3 +1,11 @@
+def phi(n):
+ 
+    result = 1
+    for i in range(2, n):
+        if (gcd(i, n) == 1):
+            result+=1
+    return result
+
 def check_prime(a):
     for i in range(2,a):
         g=0
